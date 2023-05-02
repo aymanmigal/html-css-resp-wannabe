@@ -130,6 +130,10 @@ img {
 
 
  /*tablet*/
+
+
+
+
  @media screen and (max-width: 768px){
    
     .container{
@@ -139,4 +143,62 @@ img {
     }
 
 }
+
+
+
+
+
+
+
+
+
+/*smartphone*/
+
+
+
+@media screen and (max-width: 480px){
+
+    .container{
+        max-width: 100%;
+        margin:  auto;
+        padding: 0 20px;
+    }
+
+    .row{
+        
+        flex-direction: column;
+    }
+
+    .why-us .col , .steps .col , .lessons .col{
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    .why-us .col:last-child , .steps .col:last-child , .lessons .col:last-child{
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+    
+    
+    .steps{
+        margin-bottom: 0px;
+
+    }
+    .why-us{
+        background-color:rgb(42, 41, 41) ;
+        padding: 3rem 0;
+        margin-bottom: 0;
+        ;
+    }
+    
+
+}
+
+/*BONUS*/
+@media screen and (min-width:769px) and (max-width:1160px){
+    .container{
+        width: 100%;
+    }
+}
+
 
